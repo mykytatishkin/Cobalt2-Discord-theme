@@ -3,7 +3,7 @@
     * @version 1.0.0
     * @description A theme based off of the Cobalt2 Visual Studio code theme.
     * @author Mykyta Tishkin
-    * @source https://github.com/mykytatishkin
+    * @source https://github.com/mykytatishkin/Cobalt2-Discord-theme
 **/
 
 :root {
@@ -31,11 +31,11 @@
     --interactive-muted: rgb(76, 82, 88);
     --background-modifier-hover: rgba(246, 200, 68, 0.26);
     --background-modifier-active: rgba(246, 200, 68, 0.44);
-    --background-modifier-selected: rgba(33, 38, 45, 0.52);
+    --background-modifier-selected: rgba(246, 200, 68, 0.52);
     --background-modifier-accent: rgb(33, 38, 45);
     --text-link: rgb(185, 253, 156);
     --text-normal: rgb(246, 246, 252);
-    --text-muted: rgb(139, 148, 158);
+    --text-muted: rgb(246, 200, 68);
     --deprecated-panel-background: #2a2f29;
     --deprecated-card-bg: var(--background-secondary);
     --deprecated-card-editable-bg: var(--background-secondary);
@@ -50,7 +50,7 @@
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
-    --border: 1px solid rgb(48, 54, 61);
+    --border: 1px solid rgb(246, 200, 68);
     --border-color: rgb(48, 54, 61);
     --blurple-border: 1px solid rgb(31, 47, 71);
     --border-radius: 5px;
