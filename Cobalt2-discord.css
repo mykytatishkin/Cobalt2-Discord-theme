@@ -1,6 +1,6 @@
 /**
     * @name Cobalt2
-    * @version 1.0.0
+    * @version 1.0.2
     * @description A theme based off of the Cobalt2 Visual Studio code theme.
     * @author Mykyta Tishkin
     * @source https://github.com/mykytatishkin/Cobalt2-Discord-theme
@@ -25,14 +25,14 @@
     --voice-color: var(--brand-experiment);
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: #0f0f0f;
-    --interactive-normal: rgb(139, 148, 158);
+    --interactive-normal: rgb(246, 200, 68);
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: rgb(76, 82, 88);
     --background-modifier-hover: rgba(246, 200, 68, 0.26);
     --background-modifier-active: rgba(246, 200, 68, 0.44);
     --background-modifier-selected: rgba(246, 200, 68, 0.52);
-    --background-modifier-accent: rgb(33, 38, 45);
+    --background-modifier-accent: rgb(23, 38, 55);
     --text-link: rgb(185, 253, 156);
     --text-normal: rgb(246, 246, 252);
     --text-muted: rgb(246, 200, 68);
@@ -51,7 +51,7 @@
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
     --border: 1px solid rgb(246, 200, 68);
-    --border-color: rgb(48, 54, 61);
+    --border-color: rgb(32, 52, 1);
     --blurple-border: 1px solid rgb(31, 47, 71);
     --border-radius: 5px;
     --divide-color: var(--brand-experiment);
@@ -467,4 +467,44 @@
 
 .option-96V44q:after {
     width: 0px;
+}
+
+/* Hide Nitro Tab in Friends Menu */
+.channel-1Shao0.container-32HW5s[aria-posinset="3"] {
+    display: none;
+}
+
+/* Slidy Members */
+[class*="membersWrap-"] [class*="membersGroup-"] {
+    margin-right: auto;
+    width: 57px;
+    text-overflow: clip;
+    direction: rtl;
+    word-spacing: 1000px;
+}
+[class*="membersWrap-"]:hover [class*="membersGroup-"],
+[class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
+    width: 100%;
+    margin: 0;
+    direction: ltr;
+    word-spacing: unset;
+    text-overflow: ellipsis;
+}
+.membersWrap-3NUR2t{
+  min-width: 0 !important; 
+}
+.members-3WRCEx {
+  transition: 250ms ease all;
+  width: 64px !important; 
+}
+.members-3WRCEx:hover {
+  width: 64px !important;
+}
+.membersWrap-3NUR2t:hover .members-3WRCEx{
+  width: 245px !important;
+}
+
+/* Hide Gift Button in chat box */
+button[aria-label="Send a gift"] {
+    display: none;
 }
